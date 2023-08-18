@@ -1,0 +1,12 @@
+
+services:
+  gateway:
+    networks:
+      - default
+      - shippeobackend_default
+
+
+
+networks:
+  shippeobackend_default:
+    external: true
